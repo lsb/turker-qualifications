@@ -1,0 +1,23 @@
+{"rewrites" => {
+  "\"The principle reason for the follow up call is to discuss how you will deal with inquiries from the media. I am already fielding a large amount of emails from the press, and I want to insure that our responses compliment our branding approach. As a HFT brokerage firm, we must discretely handle client data and the affects of any disclosures. If you are faced with inquiries you cannot address, please foreword them to Kent or myself.'" => /The (principal)?.+ for the (follow-up)?.+ fielding (a large amount of email|a large number of emails)?.+ want to (ensure)?.+ responses (complement)?.+As a(n)? HFT.+must (discreetly)?.+ and the (effects)?.+ Kent or (me[.])?/,
+  "The number of migrant laborers and necessary social support structures have not been determined." => /structures (has)?/,
+  "The salesman's attempts to trick the housewife are simply \"slight-of-hand\" techniques." => /(sleight)?-/,
+  "His lawyer has already plead a similar case two years ago unsuccessfully." => / (pled|pleaded)? /,
+  "The accusers new tact highlights it's unwavering conviction." => /(cusers' new (?:tack|tactic) highlights their unwaver|cuser's new (?:tack|tactic) highlights his unwaver|cuser's new (?:tack|tactic) highlights her unwaver)?ing/,
+  "HBC Investments wrote in in appendix 9 of the Full Disclosure Release that RBI Unlimited requested no additional documentation about the Summery of Motion." => /wrote (in) ([Aa]ppendix).+the (Summary)/,
+  "On p. 581 and p. 583, Strunk clearly contradicts his position in p.232, though he claim otherwise." => /position in p[.]( )?2.+he (claims) otherwise/,
+  # "The quotes were remarkable. Johnson was in agreement (\"It depends entirely on interpretation because \"similar\" is too ambiguous\") while Gabriel was not (\"Any rational person... knew exactly what was meant.)\"" => /(meant[.][^)])/
+}, "chooseBetter" => {
+  "He did not {{1 imply | infer 2}} from reading the letter that they might still have a chance." => /(2)/,
+  "The {{1 capitol | capital 2}} of California is warm and friendly, and only a mile west of Route 101." => /(1)/,
+  "She is known for inventing the rather {{1 ingenious | ingenuous 2}} solution to the town's crisis." => /(1)/,
+  "His {{1 unmoral | immoral 2}} conduct got him fired immediately." => /(2)/,
+  "In her follow-on communication, she {{1 implies | infers 2}} something different." => /(1)/,
+  "I find that solution to be most  {{1 desirous | desirable 2}} for everyone involved." => /(2)/,
+  "He {{1 hung | hanged 2}} the killer at sunset." => /(2)/,
+  "'I have rejected dates from {{1 whoever | whomever 2}} has asked me out,\" snapped Joe." => /(2)/,
+  "The nearing of strong storms always had the same {{1 affect | effect 2}} on the livestock that lived up at the aging dairy farm." => /(2)/,
+  "'{{1 Who | Whom 2}} should I report wants to talk to him?' Alfred asked the solicitor with the polished demeanor." => /(2)/,
+  "The pastry cook, {{1 who | whom 2}} had gained prestige at an exemplary restaurant, was typically late in the mornings." => /(1)/,
+  "Whenever Mr. Thompson rises to talk, {{1 there is | there are 2}} a roar of feet stamping from the back area with the senior students." => /(1)/
+}}
